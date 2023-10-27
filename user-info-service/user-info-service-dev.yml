@@ -30,7 +30,7 @@ keycloak:
     username: 'admin'
     password: 'admin'
     client-id: 'go-selling'
-    secret: 'mp3npE4H0LeAUn5LJWeFl7oQ55R6ypL0'
+    secret: '2Urkn4FxNDzgFCQK7MkhVBkxZlbZ4xjk'
     provider: secret
 file:
   uploadPath: user-info-service/src/main/resources/storage/
@@ -45,3 +45,7 @@ springdoc:
     path: /user-info-service/v3/api-docs
   swagger-ui:
     path: /user-info-service/swagger-ui.html
+    oauth:
+      realm: 'go-selling-api'
+      clientId: go-selling
+      clientSecret: 2Urkn4FxNDzgFCQK7MkhVBkxZlbZ4xjk
